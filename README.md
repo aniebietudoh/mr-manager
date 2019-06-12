@@ -23,7 +23,7 @@ Migrate the database
 Start the server
 `python manage.py runserver`
 
-# Setup the frontend
+#### Setup the frontend
 In a new terminal while the previous one is still running
 
 Enter the frontend directory
