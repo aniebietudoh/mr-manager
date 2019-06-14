@@ -1,40 +1,61 @@
-### To Run the application
+## To Run the application
 
 
-#### Setup the Backend API
+### Setup the Backend API
 Creat and environment using python
-`python -m venv ./env`
+```
+python -m venv ./env
+```
 
 Activate the env
-`. env/bin/activate`
+```
+. env/bin/activate
+```
 
 Clone the repo
-`git clone https://github.com/ekikoh/mrManager.git`
+```
+git clone https://github.com/ekikoh/mrManager.git
+```
 
 Enter the directory
-`cd mrManager`
+```
+cd mrManager
+```
 
 Install Needed packages
-`pip install django djangorestframework django-cors-headers`
+```
+pip install django djangorestframework django-cors-headers
+```
 
 Migrate the database
-`python manage.py migrate`
+```
+python manage.py migrate
+```
 
 Start the backend server
-`python manage.py runserver`
+```
+python manage.py runserver
+```
 
 #### Setup the frontend
 In a new terminal while the previous one is still running
 
 Enter the frontend directory
-`cd frontend`
+
+```
+cd frontend
+```
 
 npm install the dependencies
-`npm install`
+```
+npm install
+```
 
 Start the frontend server
-`npm start`
+```
+npm start
+```
 
-then visit the url specified http://localhost:3000
+then visit the url specified `http://localhost:3000`
 
 You should now have the app running
