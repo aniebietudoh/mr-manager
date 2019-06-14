@@ -20,7 +20,7 @@ Install Needed packages
 Migrate the database
 `python manage.py migrate`
 
-Start the server
+Start the backend server
 `python manage.py runserver`
 
 #### Setup the frontend
@@ -32,7 +32,7 @@ Enter the frontend directory
 npm install the dependencies
 `npm install`
 
-Start the server
+Start the frontend server
 `npm start`
 
 then visit the url specified http://localhost:3000
