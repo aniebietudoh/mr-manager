@@ -2,12 +2,12 @@
 
 
 ### Setup the Backend API
-Creat and environment using python
+Create an environment using python
 ```
 python -m venv ./env
 ```
 
-Activate the env
+Activate the environment
 ```
 . env/bin/activate
 ```
@@ -22,7 +22,7 @@ Enter the directory
 cd mrManager
 ```
 
-Install Needed packages
+Install needed packages
 ```
 pip install django djangorestframework django-cors-headers
 ```
@@ -56,6 +56,6 @@ Start the frontend server
 npm start
 ```
 
-then visit the url specified `http://localhost:3000`
+Visit the url specified `http://localhost:3000`
 
-You should now have the app running
+Your should now have the app running
